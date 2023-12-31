@@ -1,0 +1,168 @@
+html,body{
+    background-color: rgb(48, 45, 45);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.head{
+    display: flex;
+    /* background-color: rgb(78, 78, 70); */
+    background-color: rgb(97, 39, 131);
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.line{
+    background-color: rgb(48, 45, 45);
+    width: 30px;
+    height: 300px;
+}
+#name{
+    font-family: Caveat;
+    margin-left: 20px;
+    font-size: 60px;
+}
+#developer{
+    position: relative;
+    font-family: Carattere;
+    font-size: 80px;
+    left: 600px;
+    top: 0px;
+    /* color: rgba(79, 21, 238, 0.842); */
+}
+#langs{
+    font-family: Diphylleia;
+}
+#mern{
+    /* color: rgb(122, 14, 172); */
+    position: relative;
+    left: 430px;
+    top: 140px;
+}
+#desktop{
+    /* color: rgb(31, 240, 66); */
+    position: relative;
+    left: 330px;
+    top: 160px;
+}
+#skills-title{
+    font-family: Diphylleia;
+    position: relative;
+    left: 450px;
+    color: white;
+}
+#cards-table{
+    width: 100%;
+}
+.menu{
+    position:sticky;
+    background-color: rgb(54, 53, 53);
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+#menu-name{
+    position: relative;
+    font-family: Caveat;
+    left: 30px;
+    top: -55px;
+    font-size: 40px;
+    color: rgb(185, 15, 236);
+}
+#dev-icon{
+    position: relative;
+    color: black;
+    top: 20px;
+    font-size: 30px;
+    right: 20px;
+}
+#projects{
+    position: relative;
+    color: rgb(185, 15, 236);
+    text-decoration: none;
+    font-size: 20px;
+    top: -125px;
+    left: 870px;
+    font-family: Outfit;
+}
+#projects-icon{
+    position: relative;
+    left: 875px;
+    top: -124px;
+}
+#contact{
+    position: relative;
+    color: rgb(185, 15, 236);
+    text-decoration: none;
+    font-size: 20px;
+    top: -124px;
+    left: 900px;
+    font-family: Outfit;
+}
+#contact-icon{
+    position: relative;
+    top: -124px;
+    left: 905px;
+}
+#about{
+    position: relative;
+    color: rgb(185, 15, 236);
+    text-decoration: none;
+    font-size: 20px;
+    top: -124px;
+    left: 930px;
+    font-family: Outfit;  
+}
+#about-icon{
+    position: relative;
+    top: -124px;
+    left: 935px;
+}
+#about-paragraph{
+    font-family: Outfit;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#about-title{
+    position: relative;
+    left: 195px;
+    font-family: Diphylleia;
+}
+#contact-div{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(59, 27, 77);
+}
+#contact-div-title{
+    font-family: Diphylleia;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#contact-div-paragraph{
+    color: black;
+    font-family: Outfit;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+#copyright{
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:15px;
+    font-family: Outfit;
+}
+#copyright-icon{
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}

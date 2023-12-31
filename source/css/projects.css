@@ -1,0 +1,9 @@
+body,html{
+    background-color: rgb(48, 45, 45);
+}
+#title{
+    display: flex;
+    font-family: Caveat;
+    font-size: 80px;
+    justify-content: center;
+}
